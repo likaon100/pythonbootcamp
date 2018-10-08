@@ -1,0 +1,8 @@
+Miasto_A = str(input("Miasto A:"))
+Miasto_B = str(input("Maisto B:"))
+Dystans_z_Miasto_A_do_Miasto_B = int(input(f"Dystand {Miasto_A}-{Miasto_B}:"))
+Cena_paliwa = float(input("podaj cene paliwa:"))
+spalaniekm = float(input("Spalanie na 100 km:"))
+koszt = round((Dystans_z_Miasto_A_do_Miasto_B / 100) * spalaniekm * Cena_paliwa,2)
+# koszt = round(koszt,2)
+print(f"Koszt przejazdu Warszawa-Gdañsk to {koszt} PLN")

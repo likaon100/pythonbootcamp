@@ -1,0 +1,7 @@
+liczba =  input("podaj liczbe:")
+liczba = int (liczba)
+print(f"Wieksza od 10: {liczba>10}")
+print(f"Mniejsza rowna 15: {liczba<=15}")
+print(f"Podzielna przez 2: {liczba%2 == 0}")
+print(f"Podzielna przez 3 i wieksza od 10: {liczba%2 == 0 and liczba>10}")
+print(f"Podzielna10 przez 3 i wieksza od 10: {liczba%2 == 0 or liczba>10}")
