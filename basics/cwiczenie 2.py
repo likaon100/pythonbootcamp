@@ -6,3 +6,4 @@ h = int(input("podaj wysokosc trojkata h"))
 pole = 0.5*(a*h)
 print(f" pole trojkata opodstawie {a} i wysokosci {h} wynosi:{pole}")
 
+
