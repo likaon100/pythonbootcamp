@@ -6,7 +6,14 @@
 # list1 = list(range(1,9))
 # list2 = range(1,9)
 
-for x in range(1,11):
-    print
-    for y in range (1,11):
-    print(x*y)
+print(" \t", end="")
+for x in range(1, 11):
+    print(f"{x:4}", end="")
+print("\n")
+
+
+for x in range(1, 11):
+    print(f"\n{x}\t", end="")
+    for y in range(1, 11):
+        print(f"{x*y:4}", end=f"")
+
