@@ -1,16 +1,15 @@
 # Zadanie 4
-def formatuj(*args, **kwarqs):
-    tekst = "\n".join(arqs)
-    for k in kwarqs:
-        tekst = tekst.replace("$"+k, str(kwarqs[k]))
+def formatuj(*args, **kwargs):
+    tekst = "\n".join(args)
+    for k in kwargs:
+        tekst = tekst.replace("$"+k, str(kwargs[k]))
     return tekst
 
 def test_formatuj():
-    assert formatuj (
+    assert formatuj(
         'koszt $cena PLN',
         'kwota $cena brutto',
-        cena = 10
-    ) == 'koszt 10 PLN"\nkwota 10 brutto'
-
+        cena=10,
+    ) == 'koszt 10 PLN\nkwota 10 brutto'
 
 
