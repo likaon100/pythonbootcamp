@@ -1,6 +1,5 @@
-class Animal:
+class NaszaKlasa:
     pass
 
-zyrafa = Animal()
-
-print(class(Animal))
+x = NaszaKlasa()
+print(type(x)
